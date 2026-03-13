@@ -17,10 +17,17 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.tooling.preview.PreviewScreenSizes
 import com.edu.vocabularyfield.ui.theme.Cp5307A3EducationalAppTheme
+
+@Preview(showBackground = true, showSystemUi = true)
+@Composable
+fun Cp5307A3EducationalAppPreview(){
+    Cp5307A3EducationalAppTheme {
+        Cp5307A3EducationalAppApp()
+    }
+}
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
