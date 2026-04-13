@@ -109,7 +109,7 @@ fun McqScreen(
                     Icon(
                         Icons.AutoMirrored.Filled.ArrowBack,
                         contentDescription = "Back",
-                        tint = Color.White
+                        tint = Color.Black
                     )
                 }
 
@@ -118,7 +118,7 @@ fun McqScreen(
                     text = "Level ${gameState.currentLevel}",
                     fontSize = 18.sp,
                     fontWeight = FontWeight.Bold,
-                    color = Color.White,
+                    color = Color.Black,
                     modifier = Modifier.align(Alignment.CenterVertically)
                 )
 
@@ -130,7 +130,7 @@ fun McqScreen(
                             text = "${gameState.score}",
                             fontSize = 20.sp,
                             fontWeight = FontWeight.Bold,
-                            color = Color.White
+                            color = Color.Black
                         )
                     }
                     Spacer(modifier = Modifier.height(4.dp))
@@ -141,7 +141,7 @@ fun McqScreen(
                             text = "${gameState.lives}",
                             fontSize = 20.sp,
                             fontWeight = FontWeight.Bold,
-                            color = Color.White
+                            color = Color.Black
                         )
                     }
                 }
